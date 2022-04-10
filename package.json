@@ -7,17 +7,23 @@
     "vscode": "^1.63.0"
   },
   "categories": [
-    "Other"
+    "Debuggers"
   ],
   "activationEvents": [
-    "onCommand:steampunk-6502-debugger.helloWorld"
+    "onDebug"
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "debuggers": [
       {
-        "command": "steampunk-6502-debugger.helloWorld",
-        "title": "Hello World"
+        "type": "steampunk-6502",
+        "label": "Steampunk 6502 Emulator",
+        "initialConfigurations": [
+          {
+            "type": "steampunk-6502",
+            "request": "attach"
+          }
+        ]
       }
     ]
   },
