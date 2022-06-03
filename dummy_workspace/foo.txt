@@ -1,0 +1,2 @@
+This file is only here to work around an issue in VS Code that prevents us from
+opening a disassembly view if there's no file opne in the editor.
