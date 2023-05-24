@@ -9,6 +9,12 @@
 			"name": "Attach to Steampunk",
 			"type": "steampunk-6502",
 			"request": "attach",
+		},
+		{
+			"name": "Attach to Steampunk (2)",
+			"type": "steampunk-6502",
+			"request": "attach",
+			"port": 1235
 		}
 	]
 }

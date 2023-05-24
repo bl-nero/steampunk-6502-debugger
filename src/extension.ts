@@ -14,7 +14,7 @@ class SteampunkDebugAdapterDescriptorFactory implements vscode.DebugAdapterDescr
     session: vscode.DebugSession,
     executable: vscode.DebugAdapterExecutable | undefined
   ): vscode.ProviderResult<vscode.DebugAdapterDescriptor> {
-    return new vscode.DebugAdapterServer(1234);
+    return new vscode.DebugAdapterServer(session.configuration.port ?? 1234);
   }
 }
 
