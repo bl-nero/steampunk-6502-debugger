@@ -1,4 +1,4 @@
-# steampunk-6502-debugger README
+# Steampunk 6502 Debugger
 
 This is a Visual Studio Code extension that allows debugging 6502 code using VS Code debugger and the Steampunk 6502 emulator. Note that as of now, the debugger is more mature than the emulator itself.
 
