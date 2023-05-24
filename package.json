@@ -2,7 +2,7 @@
   "name": "steampunk-6502-debugger",
   "displayName": "Steampunk 6502 Debugger",
   "description": "",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/bl-nero/steampunk-6502-debugger"
@@ -40,16 +40,16 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.63.0",
     "@types/glob": "^7.2.0",
     "@types/mocha": "^9.0.0",
     "@types/node": "14.x",
+    "@types/vscode": "^1.63.0",
     "@typescript-eslint/eslint-plugin": "^5.9.1",
     "@typescript-eslint/parser": "^5.9.1",
+    "@vscode/test-electron": "^2.0.3",
     "eslint": "^8.6.0",
     "glob": "^7.2.0",
     "mocha": "^9.1.3",
-    "typescript": "^4.5.4",
-    "@vscode/test-electron": "^2.0.3"
+    "typescript": "^4.5.4"
   }
 }
