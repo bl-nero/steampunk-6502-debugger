@@ -3,6 +3,8 @@
   "displayName": "Steampunk 6502 Debugger",
   "description": "",
   "version": "1.0.0",
+  "publisher": "BartoszLeper",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/bl-nero/steampunk-6502-debugger"
